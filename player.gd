@@ -5,9 +5,10 @@ var rot_speed:float = 2.6
 ## determines how much thrust the ship has
 var thrust: Vector2 = Vector2(500, 0)
 ## Signals to determine actions
-signal explode
-signal shoot
-signal life_lost
+signal explode # activates explosion animation
+signal shoot # laser beam activation
+signal life_lost # activates loss of life from HUD
+
 
 
 
